@@ -66,23 +66,23 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Kotlin",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "devicon-kotlin-plain colored"
     },
     {
       skillName: "Android",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "devicon-android-plain colored"
     },
     {
       skillName: "Dart",
-      fontAwesomeClassname: "fab fa-sass"
+      fontAwesomeClassname: "devicon-dart-plain colored"
     },
     {
       skillName: "Flutter",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "devicon-flutter-plain colored"
     },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "devicon-java-plain colored"
     },
     // {
     //   skillName: "swift",
@@ -98,15 +98,15 @@ https://fontawesome.com/icons?d=gallery */
     // },
     {
       skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      fontAwesomeClassname: "devicon-amazonwebservices-plain colored"
     },
     {
       skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "devicon-firebase-plain colored"
     },
     {
       skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "devicon-python-plain colored"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -122,7 +122,7 @@ const educationInfo = {
       logo: require("./assets/images/anjac.png"),
       subHeader: "Master of Computer Applications",
       duration: "July 2020 - June 2022",
-      desc: "Achieving first class with distinction with CGPA 7.9",
+      desc: "Graduated with First Class Distinction, securing a CGPA of 7.9.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -133,7 +133,7 @@ const educationInfo = {
       logo: require("./assets/images/sri_kaliswari.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "June 2017 - April 2020",
-      desc: "Achieved first class pass report with CGPA 7.9",
+      desc: "Graduated with First Class, securing a CGPA of 7.9.",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -170,23 +170,24 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Junior Software Engineer",
+      company: "Revolution Games Private Ltd",
+      companylogo: require("./assets/images/rg_logo1.jpeg"),
+      date: "July 2022 – October 2024",
+      desc: "I began my career at Revolution Games Private Limited as a Junior Software Engineer, where I learned Android and Flutter development from scratch. During my time there, I worked on 2–3 projects end-to-end and gained hands-on experience in key technologies such as Google Maps integration, in-app notifications, social logins, bug fixing, maintenance, and feature development. This role helped me build a strong foundation in mobile application development and best coding practices."
+    },
+    {
       role: "Android Developer",
       company: "Helyxon Healthcare Solutions",
       companylogo: require("./assets/images/helyx_logo.jpeg"),
       date: "April 2025 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Helyxon Healthcare Solutions as an Android Developer, where I was solely responsible for maintaining and enhancing a large-scale healthcare application. I contributed new features including advanced navigation, migration of Java code to Kotlin with Jetpack Compose, data synchronization with AWS cloud storage, database operations and migration logic, and a prescription generator using PDF and Canvas. I also handled bug fixes and overall application performance improvements, ensuring reliability and smooth functionality.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
     },
-    {
-      role: "Junior Software Engineer",
-      company: "Revolution Games Private Ltd",
-      companylogo: require("./assets/images/rg_logo.png"),
-      date: "July 2022 – October 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+   
     // {
     //   role: "Software Engineer Intern",
     //   company: "Airbnb",
@@ -212,25 +213,29 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/hint_social_logo.png"),
+      projectName: "Hint Social",
+      projectDesc: "Social events platform to meet new people and discover local things to do based on your interests - for making new friends, finding activity partners, dating, or however else you want to Hint.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Project Files",
+          url: "https://drive.google.com/drive/folders/1q6280kEOitbHd4XTB2qYCLNyjCTzppdZ?usp=sharing"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ecdoc_logo.webp"),
+      projectName: "ECDoc",
+      projectDesc: "The app helps doctors manage patient details, book appointments, and conduct consultations. It provides complete info on medications,tracks growth with charts, allergies, and treatment history.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "App Link",
+          url: "https://play.google.com/store/apps/details?id=com.helyxon.ecdoc"
+        },
+        {
+          name: "Project Files",
+          url: "https://drive.google.com/drive/folders/1HzmgcycQPQFLY5IMCkzXKY1FzKsJAAel?usp=sharing"
         }
       ]
     }
