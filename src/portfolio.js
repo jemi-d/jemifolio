@@ -217,10 +217,10 @@ const bigProjects = {
       projectName: "Hint Social",
       projectDesc: "Social events platform to meet new people and discover local things to do based on your interests - for making new friends, finding activity partners, dating, or however else you want to Hint.",
       footerLink: [
-        {
-          name: "Project Files",
-          url: "https://drive.google.com/drive/folders/1q6280kEOitbHd4XTB2qYCLNyjCTzppdZ?usp=sharing"
-        }
+        // {
+        //   name: "Project Files",
+        //   url: "https://drive.google.com/drive/folders/1q6280kEOitbHd4XTB2qYCLNyjCTzppdZ?usp=sharing"
+        // }
         //  you can add extra buttons here.
       ]
     },
